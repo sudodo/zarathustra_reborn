@@ -1,0 +1,285 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>reborn_005_Von_den_Lehrstühlen_der_Tugend - 永劫回帰のツァラトゥストラ、現代に転生してまた言ったwww</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">永劫回帰のツァラトゥストラ、現代に転生してまた言ったwww</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3 id="炎上必至意識低い系セミナーに物申す"><a class="header" href="#炎上必至意識低い系セミナーに物申す"><strong>【炎上必至？】意識低い系セミナーに物申す！</strong></a></h3>
+<p><strong>4. ぐっすり安眠コンサルタントのありがたいお言葉</strong></p>
+<p>さて、市場でのデビュー演説が盛大にスベった我らがツァラトゥストラ。彼は次なる布教の地を求めて、町をぶらついていた。すると、一角にまたもや人だかりができているではないか。</p>
+<p>（むっ、また何かイベントか？ 今度こそ、俺の『超人』思想を理解させるチャンスかもしれん…！）</p>
+<p>彼が人垣をかき分けてみると、そこでは一人の賢者が講壇に立ち、集まった若者たちに何かを説いていた。どうやらこの賢者、「眠りの匠」として名を馳せる、今話題のインフルエンサーらしい。若者たちは皆、キラキラした目で彼を見つめている。完全に信者である。</p>
+<p>ツァラトゥストラは（フン、どうせ大したことは言うまい）と高をくくりつつ、若者たちの輪に混じって、その後ろの方に陣取った。そして、その賢者は、うっとりとした表情でこう語り始めた。</p>
+<p>「皆の衆！ 人生で最も大切なことは何か、ご存知ですかな？ それは『名誉』！ そして『恥』！ これらをわきまえることこそが、最高のパフォーマンス、すなわち『快眠』へと繋がる第一歩なのですぞ！」</p>
+<p>&lt;若者A&gt; 「おおー！ 快眠！」
+&lt;若者B&gt; 「名誉と恥…メモメモ…」</p>
+<p>「考えてもみてください！ 夜中に何度も目が覚めてしまう、眠りの質が悪い者たち！ 彼らから道を避けるべきです！ なぜなら、彼らの人生のパフォーマンスは、劣悪だからです！」</p>
+<p>「夜中にこっそり活動する泥棒ですら、眠りに対しては恥じらいを持っている。静かに、穏やかに、事を済ませようとする。しかし！ 夜勤の警備員はどうですかな？ 恥も外聞もなく、けたたましく警笛を鳴らす！ これでは良い眠りは訪れませんな！」</p>
+<p>ツァラトゥストラ（心の声）：「（いや、警備員は仕事だろ…何を言ってるんだこのジジイは…）」</p>
+<p>「そもそも！ 眠るという行為は、簡単なスキルではないのです！ そのために、一日中、意識を高く保ち、目覚めている必要があるのですぞ！」</p>
+<p>賢者はビシッと指を立て、ドヤ顔で続ける。</p>
+<p>「そこで！ 皆さんに『快眠のためのゴールデンルール』を授けましょう！ まず！ 一日に十回、昨日の自分を超えなさい！ これが心地よい疲労感を生み、精神のサプリメントとなるのです！」</p>
+<p>&lt;若者C&gt; 「一日十回も自分超え！？ ハードル高っ！」</p>
+<p>「次に！ 一日に十回、自分自身と和解しなさい！ 自己超越は痛みを伴うもの。自分を許せぬ者は、悪夢という名のデバフにうなされることでしょう！」</p>
+<p>「そして！ 一日に十個、新しい真理（ライフハック）を見つけなさい！ さもなくば、あなたの魂は夜中に『なんか面白いことないかな～』とスマホを探し始め、飢えたまま朝を迎えるでしょう！」</p>
+<p>「最後に！ 一日に十回、腹の底から笑いなさい！ さもなくば、夜中に胃がキリキリと痛み出し、ストレスという名の邪悪な父が、あなたを枕元で苦しめることになりますぞ！」</p>
+<p>ツァラトゥストラ（心の声）：「（一日に四十個もタスクがあるのかよ！ それをこなす方がストレスで眠れんわ！）」</p>
+<p>「これを実践している者は少ない！ しかし、よく眠るためには、これら全ての徳を持たねばならないのです！ 私がSNSで嘘のリア充報告をするでしょうか？ 私が深夜にこっそり異性の動画を漁るでしょうか？」</p>
+<p>&lt;若者D&gt; 「ギクッ…」</p>
+<p>「私が隣人の新車や豪邸を羨むでしょうか？ これら全て、良質な睡眠とは相容れないのです！」</p>
+<p>「そして！ たとえ全ての徳を身につけたとしても、まだ奥義がありますぞ！ それは…徳そのものを、適切な時に眠らせることです！」</p>
+<p>&lt;若者一同&gt; 「「「おおぉぉぉ…！！」」」</p>
+<p>「徳と徳が、夜中に脳内でレスバトルを始めたらどうしますか！ 『いや俺の方が正しい！』『いいや私こそが正義だ！』と！ そんな状態では、眠れるはずもありませんな！ おお、不幸なあなたよ！」</p>
+<p>「神とも、隣人とも、平和な関係を築きなさい。それが快眠の秘訣。なんなら、隣に住む悪魔的な隣人とも平和を保つのです！ さもなくば、彼は夜中にあなたの部屋の壁をドンドン叩きに来るでしょう！」</p>
+<p>ツァラトゥストラ（心の声）：「（隣人の悪魔ってなんだよ…具体的に言えよ具体的に…！）」</p>
+<p>「上司や権力者には敬意を払い、従いなさい！ たとえ、その権力者が曲がった理不尽なヤツだったとしてもです！ それが快眠のコツ！ 権力がなぜ理不尽な道を好んで歩むのか？ そんなこと、私にどうできましょうか？ 知らんがな、です！」</p>
+<p>&lt;若者E&gt; 「すげぇ…社畜の鑑みたいな思想だ…」</p>
+<p>「常に最高の羊飼いと呼ばれるべきは、羊を最も安全で緑豊かな牧草地へ導く者。つまり、波風立てずに平穏に過ごすのが一番ということですな。これぞ快眠と相思相愛の関係です」</p>
+<p>「私は多くの名誉も、大きな財産も望みません。そんなものはストレスで胃に穴が開くだけ。しかし、そこそこの良い評判と、ちょっとした資産がなければ、不安で眠れなくなってしまう。バランスが大事ですな、バランスが」</p>
+<p>「悪い仲間とつるむよりは、小さな良いコミュニティに属する方がマシです。しかし、そのコミュニティにも依存しすぎず、適切な時に出入りすること。これが快眠の極意です」</p>
+<p>「そして、精神的に貧しい者たち…すなわち、素直で疑うことを知らない人々！ 彼らは私にとって大歓迎です！ なぜなら、彼らはすぐに眠りを促進してくれるから！ 彼らは幸いですな、特に、常に『先生のおっしゃる通りです！』と認めてくれるのであれば！」</p>
+<p>かくして、意識低い系…もとい、徳高き賢者の一日は過ぎていく。賢者は恍惚とした表情で締めくくった。</p>
+<p>「さて、夜が来ても、私は決して『眠りよ、来たれ！』などと呼びかけはしませんぞ！ 眠りとは、徳の主！ 主を呼びつけるなど、無礼千万！」</p>
+<p>「むしろ私は、その日に行ったこと、考えたことを静かに反芻するのです。牛のように、忍耐強く自問自答します。『今日の10の自分超えは何だったかな？』『10の和解と10の真理と10の笑いは達成できたかな？』と」</p>
+<p>「そうして四十の思考に揺られていると…突然、呼ばれもしないのに、徳の主である眠りが、私を襲うのです！」</p>
+<p>「眠りは私の目に触れ、まぶたを重くする。眠りは私の口に触れ、口をあんぐりと開かせたままにする…」</p>
+<p>「まことに、眠りは柔らかな足取りでやって来る、最も愛すべき泥棒…そして、私の思考を根こそぎ盗んでいく。私はこの講壇のように、ただのアホみたいに突っ立っているだけ…」</p>
+<p>「しかし、私はもう長くは立っていません。私はすでに、ベッドに横たわっているのですから…」</p>
+<p>――賢者が語り終えると、若者たちは割れんばかりの拍手を送った。感動で涙ぐむ者さえいる。</p>
+<p>しかし、ツァラトゥストラがその言葉を聞いたとき、彼は腹を抱えて笑いそうになるのを必死でこらえていた。なぜなら、その珍妙な説法によって、彼に一つの光が差し込んだからである。そして、彼は心の中でこう毒づいたのだった。</p>
+<p>「（ププッ…なんだコイツは！ 四十ものタスクに追われるただの愚者じゃないか！ だが…『眠り』という一点においては、妙に詳しいな…！）」</p>
+<p>「（このジジイの近所に住むヤツは幸せだろうな！ この強烈な『眠くな～る』電波は、分厚い壁を隔てても伝染するに違いない！）」</p>
+<p>「（なるほど、若者たちがこの徳の説教者の前に座っていたのは、あながち無駄ではなかったというわけか。こいつの知恵とは、要するに『よく眠るために、日中死ぬほど頑張って起きていること』。ただそれだけだ！）」</p>
+<p>「（そして、もし人生に意味がなく、俺が無意味なものを選ばねばならないとしたら…フッ、この『快眠』という無意味は、数ある無意味の中でも最もマシな選択肢かもしれんな！）」</p>
+<p>ツァラトゥストラは、今やハッキリと理解した。かつて人々が「徳の教師」なるものを探し求めたとき、彼らが何よりも欲していたものを。</p>
+<p>「（人々が求めていたのは、良き眠りと、それに伴う芥子色の徳…つまり、睡眠導入剤レベルの、ささやかで無害な徳だったというわけか！）」</p>
+<p>「（これら全ての、有り難がられている講壇の賢者どもにとって、最高の知恵とは『夢を見ないほどの深い眠り』だったのだ！ 奴らは、人生のより良い意味など、何一つ知らなかったのだ！）」</p>
+<p>ツァラトゥストラは、恍惚として眠そうな顔をしている若者たちを見渡した。</p>
+<p>「（今日でも、この睡眠コンサルタントのような連中がいるだろう。そして、こいつより正直じゃないヤツも大勢いる。だが、貴様らの時代はもう終わった！ もう長くは立っていられない！ 貴様らはすでに、精神のベッドに横たわっているのだ！）」</p>
+<p>彼は心の中で、高らかに勝利宣言をした。</p>
+<p>「（幸いなるかな、この眠たげなる者たちよ！ なぜなら、貴様らはまもなく、永遠の眠りにつくだろうからな！）」</p>
+<p>――かくしてツァラトゥストラは、また一つ、己の『超人』思想の正しさを確信し、一人悦に入るのであった。周りの誰も、彼がそんな壮大な上から目線で自分たちを憐れんでいるとは、夢にも思わなかった。まさに独り勝ちである。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="reborn_004_Die_Reden_Zarathustras.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="reborn_006_Von_den_Hinterweltlern.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="reborn_004_Die_Reden_Zarathustras.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="reborn_006_Von_den_Hinterweltlern.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>reborn_030_Von_den_Priestern - 永劫回帰のツァラトゥストラ、現代に転生してまた言ったwww</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">永劫回帰のツァラトゥストラ、現代に転生してまた言ったwww</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3 id="悲報聖職者ガチ勢に遭遇陰キャ賢者の悪口が止まらない"><a class="header" href="#悲報聖職者ガチ勢に遭遇陰キャ賢者の悪口が止まらない"><strong>【悲報】聖職者（ガチ勢）に遭遇、陰キャ賢者の悪口が止まらない</strong></a></h3>
+<p>ツァラトゥストラが市場での演説（という名の大事故）を終え、弟子たち（いつの間にかついてきた物好きな連中）を引き連れて次の町へ向かっていた時のことである。</p>
+<p>前方から、黒いローブを身にまとった一団が、静かにこちらへ歩いてくるのが見えた。司祭たちである。その場の空気が、スッと重くなる。</p>
+<p>ツァラトゥストラは弟子たちに目配せし、シーッと人差し指を口に当てて、こう囁いた。</p>
+<p>「皆さん、静かに。あれは司祭たちです。たとえ彼らが私のアンチであろうとも、ここは穏便にいきましょう。バトルは厳禁、武器（口論）は鞘に収めておくべきです」</p>
+<p>彼は平静を装っているが、その目は完全に「うわ、面倒くさい古参プレイヤーの一団に遭遇した…」と語っていた。</p>
+<p>「彼らの中にも、ある意味で英雄的な人はいるのです。彼らの多くは、苦しみすぎた。あまりにも多くの苦行クエストをこなしすぎた結果、他者を苦しめることでしか自分の存在価値を見出せなくなってしまった、哀れな人たちなのです」</p>
+<p>&lt;弟子A&gt; 「（なんかもう悪口が始まってないか…？）」</p>
+<p>「彼らは邪悪な敵です。特に、あの謙虚さを装った態度ほど、復讐心に満ちたものはありません。そして、彼らにうかつに喧嘩を売ると、こちらの精神まで汚染されます。関わらないのが一番です」</p>
+<p>「しかし、ですね。私の血は彼らの血と縁続きなのです。元をたどれば、同じサーバーの出身みたいなものですから。ですから、私の血が、彼らの血の中においてもリスペクトされることを望みます。……まあ、向こうは私を破門したんですけどね！」</p>
+<p>最後の最後で本音がダダ漏れである。</p>
+<p>一行が司祭たちとすれ違い、その姿が見えなくなった後、ツァラトゥストラは急に「うぐっ…！」と胸を押さえて苦しみだした。</p>
+<p>&lt;弟子B&gt; 「ツァラトゥストラ様！？ 大丈夫ですか！？」</p>
+<p>しかし、彼は数秒で復活すると、天を仰いで語り始めた。その苦痛は、どうやら持病の「アンチへの憎悪が再発する病」だったらしい。</p>
+<p>「ああ、私はこの司祭たちを哀れみます！ 彼らは私のセンスに全く合わない！ まあ、私が人間社会に戻ってきてからというもの、そんな些細なことはどうでもよくなりましたが！」</p>
+<p>どの口が言うのか。</p>
+<p>「しかし、私は彼らと共に苦しみ、そして今も苦しんでいる！ 彼らは囚人です！ 烙印を押された者たちなのです！ 彼らが『救い主』と呼ぶ伝説のプレイヤーが、彼らをガチガチの規約で縛り付けてしまったのです！」</p>
+<p>「偽りの価値観（クソみたいなゲームバランス）！ 妄想の言葉（意味不明なアップデート告知）！ ああ、誰か彼らを、あの『救い主』という名のクソ運営から救い出してくれればいいのに！」</p>
+<p>&lt;仮想コメント&gt; 「出たー！ 運営批判！」</p>
+<p>「かつて彼らは、荒れ狂うネットの海を漂流しながら、ある島に上陸すれば救われると信じていました。しかし見よ！ それは島ではなく、眠れる巨大レイドボスだったのです！」</p>
+<p>「偽りの価値観と妄想の言葉。これらは我々人間にとって最悪のモンスターです。その腹の中では、運命という名の次のアップデートが、ただ静かに眠り、待ち続けているのです」</p>
+<p>「しかし、ついにそれは目覚め、腹の上で呑気にギルドハウスを建てていた者たちを、根こそぎ食らい尽くし、飲み込むのです！」</p>
+<p>「ああ、この司祭たちが建てたギルドハウスを見てください！ 彼らは自分たちの、甘ったるいお香の匂いが充満した洞窟を『教会』と呼んでいます！」</p>
+<p>「ああ、この偽りの照明（サイリウム）！ この淀んだ空気！ ここでは、魂がその高みへと飛翔することなど許されません！ 天井、低いですからね！」</p>
+<p>&lt;仮想コメント&gt; 「物理的な問題だった」</p>
+<p>「それどころか、彼らの信仰はこう命じるのです。『罪人どもよ、ひざまずいてこのクソ長い階段を上ってこい！』と。真に、私ならエレベーターを設置しますね」</p>
+<p>「まったく、私は彼らの、あの敬虔ぶった歪んだ目を見るくらいなら、もっと堂々と恥知らずな人間を見ている方がマシです」</p>
+<p>「一体誰が、こんな薄暗い洞窟と苦行の階段なんてものを創り出したのか？ それは、光の世界から身を隠し、青く澄み渡る空を恥じた、根暗な連中ではありませんか？」</p>
+<p>「そして、いつの日か、澄み渡る空が、壊れた天井から再び差し込み、廃墟となった壁の草や赤いケシ（雑草）の上に降り注ぐ時！ その時こそ、私はこの神の家（だった場所）へと、再び心を向けてもいいでしょう。まあ、リフォーム代によりますが」</p>
+<p>&lt;仮想コメント&gt; 「結局カネかよw」</p>
+<p>「彼らは、自分たちに都合が悪く、苦痛を与えるものを『神』と呼びました。そして正直に言って、彼らの崇拝には多くの英雄的な性質がありました。認めましょう。あの苦行は、常人には真似できません」</p>
+<p>「ですが、彼らは人間を十字架に磔にすることでしか、自分たちの神を愛する方法を知らなかったのです！ なんというヤンデレ愛！」</p>
+<p>「彼らは死体として生きようと考え、自分たちの死体を黒いローブで覆い隠した。彼らの言葉からは、今でも死体安置所の不快な香りがプンプンします」</p>
+<p>「そして、彼らの近くに住む者は、まるで黒い沼の近くに住むようなものです。そこからは、ヒキガエルが、その甘ったるい声で延々と歌を歌っているのです。Discordのボイチャで愚痴を垂れ流す連中のように」</p>
+<p>「彼らは私に、もっとマシな歌を歌うべきです。そうすれば、私も彼らの『救い主』を信じることを学んであげましょう。彼の弟子たちは、もっと救われた顔をすべきです！ みんな顔が死んでるじゃないか！」</p>
+<p>&lt;仮想コメント&gt; 「顔採用w」</p>
+<p>「私は彼らが裸であるのを見たい。アバターじゃなくて、ありのままの姿を見せろと。なぜなら、美しさ（圧倒的な真理）だけが、真の懺悔を説くことができるからです。あんなに着込んで悲しみを覆い隠した姿で、一体誰を説得できるというのですか！」</p>
+<p>「まったく、彼らの『救い主』自身、自由で開かれた第七天国（最高のサーバー環境）から来たわけではないのです！ 真に、彼ら自身、認識という名の絨毯（最高のスペックのPC）の上を歩んだことすらないのです！」</p>
+<p>「あの『救い主』たちの精神は、バグだらけでした。しかし、彼らはその全てのバグに、『神の仕様』という名の妄想を上書きして誤魔化したのです！」</p>
+<p>「彼らの精神は、憐憫という名の感情の海で溺れました。そして、彼らが同情心でパンパンに膨れ上がり、溢れかえる時、常に大きな愚かさ（クソみたいな判断）がその上にプカプカと浮かんでいたのです」</p>
+<p>「彼らは熱心に、そして大声で叫びながら、自分たちの信者（羊の群れ）を一本の橋の上へと駆り立てました。まるで未来へ続く道がそれ一本しかないかのように！ 真に、これらの羊飼い（ギルマス）たちも、まだ羊（一般プレイヤー）の中に属していたのです！」</p>
+<p>&lt;仮想コメント&gt; 「ギルマスも所詮はプレイヤー」</p>
+<p>「これらの羊飼いたちは、小さな精神（狭い視野）と広大な魂（無駄にデカいプライド）を持っていました。しかし兄弟たちよ、これまでで最も広大だった魂でさえ、なんと小さな国だったことでしょう！」</p>
+<p>「彼らは自分たちが歩んだ道に、血の印を書き記しました。そして彼らの愚かさは、『血によって真理は証明されるのだ！』と教えたのです。この攻略法のために何人もの仲間が犠牲になったんだ、だから正しいんだ、と」</p>
+<p>「しかし、血は真理の最悪の証人です。血は、最も清らかな教えでさえ、妄想と心の憎悪へと毒するのです。要するに、ただの無能の証明です」</p>
+<p>「そして、もし誰かが自分の教えのために火の中を歩む（アカウントを犠牲にする）としても、それが何を証明するというのですか！ 真に、自分自身の内なる炎から、自分自身の教えが生まれることの方が、よっぽど重要なのです！」</p>
+<p>「蒸し暑い心（熱すぎる情熱）と冷たい頭（冷静な思考）。この二つが合致する時、突風、すなわち『救い主』と呼ばれるカリスマプレイヤーが生まれるのです」</p>
+<p>「しかし、兄弟たちよ！ これまでにも、民衆が『救い主』と呼んだ、これらの心を奪う突風よりも、はるかに偉大で高貴な生まれの者たちが存在したのです！」</p>
+<p>「そして、兄弟たちよ！ もし君たちが本当に自由への道を見つけたいのであれば、すべての『救い主』たちよりも偉大な者たちから、さらに救われる必要があるのです！ つまり、私についてきなさいということです！」</p>
+<p>最後にちゃっかり自分を宣伝するツァラトゥストラ。</p>
+<p>「未だかつて、『超人』は存在しませんでした。私は、これまでで最大と言われた人間も、最小の人間も、両方とも裸で見てきました」</p>
+<p>「彼らは、まだ互いにあまりにも似すぎています。真に、私が見出した最大の人間でさえ……あまりにも、人間的すぎたのです！」</p>
+<p>ツァラトゥストラはそう語り終えると、ビシッとポーズを決めた。その顔は、全人類の真理を自分だけが知っていると確信しきった、最高のドヤ顔であった。</p>
+<p>&lt;弟子C&gt; 「（あの、ツァラトゥストラ様……さっきから独り言が全部声に出てますし、顔がすごいことになってますけど……）」</p>
+<p>弟子は、そっと目を逸らしたのであった。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="reborn_029_Von_den_Mitleidigen.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="reborn_029_Von_den_Mitleidigen.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

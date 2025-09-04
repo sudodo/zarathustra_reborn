@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>reborn_008_Von_den_Freuden-_und_Leidenschaften - 永劫回帰のツァラトゥストラ、現代に転生してまた言ったwww</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">永劫回帰のツァラトゥストラ、現代に転生してまた言ったwww</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3 id="4-炎上上等-推し徳への愛を語る"><a class="header" href="#4-炎上上等-推し徳への愛を語る"><strong>4. 炎上上等！ 推し（徳）への愛を語る！</strong></a></h3>
+<p>ツァラトゥストラは、群衆のヤジにも全く動じない。むしろ、自分の話がウケたと勘違いしている綱渡り芸人を見て、内心（フン、あのピエロも俺の思想に感化されたか…）と悦に入っている始末である。彼はさらにドヤ顔で、熱弁を続けた。</p>
+<p>「さて皆さん！ 今日の説法、第二部のお時間です！ テーマは『歓びと情念』、つまり『推し活のススメ』です！」</p>
+<p>&lt;群衆F&gt; 「え、推し活？」
+&lt;群衆G&gt; 「さっき超人の話してなかったか？ 話飛びすぎだろ」</p>
+<p>「いいですか、兄弟よ！ もし君に『徳』、つまり自分だけの『推し』がいるとします。それは君だけの、誰にも汚されてはならない聖域（サンクチュアリ）のはずだ！ それを誰かと共有するなんて、もってのほか！」</p>
+<p>「確かにね、分かりますよ。『この推しの尊さを誰かに伝えたい！』『この素晴らしさを語り合いたい！』って思うでしょ？ 耳元でささやいて、イチャイチャしたい気持ちも分かる！」</p>
+<p>「だが見ろ！ 君がその『推し』の名前をSNSでハッシュタグ付きで叫んだ瞬間！ 君は『推し』と共にただの『民衆』となり、『群れ』の一員に成り下がるのだ！ わかるか！？ あの、掃いて捨てるほどの量産型ファンになるってことなんだよ！」</p>
+<p>もはや何を言っているのか、市場の半分以上の人間には理解できていなかった。</p>
+<p>「だから、こう言う方がクールなんです！ 『我が魂に甘美な痛みをもたらし、我が内臓を飢えさせるこの感情は…言葉にできない…名もなき何かである』と！」</p>
+<p>「君の『推し（徳）』は、安っぽい名前で呼ばれるには尊すぎる存在のはずだ！ もし、どうしても語らなければならないのなら、語彙力を失ってどもることを恥じるな！」</p>
+<p>「こうどもりながら語るのです！ 『こ、これこそが…我が善…！ 俺はこれを愛してる…！ これだけで俺は完全に満たされる…！ これこそが俺の求める唯一の善なのだ…！』と！」</p>
+<p>&lt;群衆H&gt; 「完全に早口オタクのそれ」
+&lt;群衆I&gt; 「気持ち悪いけど、なんか熱意は伝わってきた」</p>
+<p>「俺はそれを神のルールだからとか、人間の宿命だからとか、そんな理由で求めてるんじゃない！ 天国への道しるべなんてものでも断じてない！ 俺が愛するのは、この地上で輝く『推し（徳）』だけだ！ そこに小難しい理屈なんていらない！ 万人の理解なんて、クソ食らえだ！」</p>
+<p>「見ろ！ この鳥（推し）は、俺の心に巣を作った！ だから俺はそれを愛し、慈しむ！ そして今、俺の心の中で、黄金の卵（限定SSR）を産んでいるのだ！」</p>
+<p>そうどもりながら、自分の『推し（徳）』を全力で称賛すべきなのだ！</p>
+<p>「かつて君たちは『情念』、つまり嫉妬や劣情、逆恨みといったドス黒い感情を『悪』と呼んでいたはずだ。だが今や、君たちにはそれらを昇華させた『徳（推し）』しかない！ そう、それらは君たちの闇の感情（ダーク・エモーション）から育ったものなのだ！」</p>
+<p>「君たちの最高の目標（人生のテーマ）を、それらの情念のド真ん中に置いてみろ！ するとどうだ！ それらは君だけの『徳』となり、歓喜の感情（エクスタシー）へと変わるのだ！」</p>
+<p>「君がブチ切れやすい癇癪持ちだろうと、女好きの色欲魔人だろうと、ヤバい思想にハマった狂信者だろうと、粘着質な復讐の鬼だろうと、関係ない！」</p>
+<p>&lt;群衆J&gt; 「ろくなやつがいねえな」</p>
+<p>「結局、君たちの全ての『情念』は『徳』となり、君たちの全ての悪魔（デーモン）は天使（エンジェル）へと変わるのだ！」</p>
+<p>「かつて君たちの心には、野良犬どころか狂犬が住み着いていただろう。だが結局、そいつらは美しい歌声を持つカナリアへと姿を変えた！ 君の毒から鎮痛剤を精製し、悲しみの牛から甘美なミルクを搾り取るのだ！ 今や君はそのミルクを飲む！」</p>
+<p>「そして今となっては、君の『徳（推し）』同士の解釈違い戦争から生まれる悪を除いて、君からいかなる悪も生まれない！」</p>
+<p>「兄弟よ、もし君が幸運なら、『推し』は一人に絞れ。それ以上は持つな。その方が、君は容易に橋（人生）を渡れる」</p>
+<p>「『推し』がたくさんいるのは、一見リア充に見えるが、それは重い運命（ハードモード）だ！ あっちのイベント、こっちの限定ガチャ…時間も金も身も心も削られる！ そしてある者は、疲れ果てて砂漠（ソシャゲ引退）へ行き、自ら命を絶ったのだ！ なぜなら、彼は『推し』と『推し』の戦い（板挟み）の戦場であることに疲れてしまったからだ！」</p>
+<p>&lt;群衆A&gt; 「なんか生々しい話になってきたぞ…」</p>
+<p>「兄弟よ、戦争や争いは悪か？ 確かにそうだ！ しかし、この悪は必然なのだ！ 君の『推し』たちの間での嫉妬！ 不信！ 誹謗中傷は、避けられないカルマなのだ！」</p>
+<p>「見ろ！ 君の『推しA』が、いかに『最高』の座を欲しているか！ 君の『推しB』が、いかに君の全精神を自分のものにしたがっているか！ 怒り、憎悪、そして愛を！ 全てを自分に注いでほしいと願っている！」</p>
+<p>「それぞれの『推し（徳）』は、他の『推し（徳）』に嫉妬する！ そして嫉妬は恐ろしいものだ！ 『推し』もまた、嫉妬によって滅びる可能性があるのだ！」</p>
+<p>「嫉妬の炎に囲まれた者は、結局、サソリが己に毒針を向けるように、自滅する！ 『ああ、俺なんかが推していて、本当に申し訳ない…』とかな！」</p>
+<p>「ああ、兄弟よ！ 君は見たことがないのか！？ 『推し』への愛が深まりすぎて、自らを卑下し、刺し違えようとするオタク（徳）の姿を！」</p>
+<p>「人間は、乗り越えられるべき存在だ！ だからこそ、君は君の『推し（徳）』を愛すべきなのだ！ なぜなら――君は、その『推し活』によって滅びるからだッ！！」</p>
+<p>ツァラトゥストラはこう言った。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="reborn_007_Von_den_Verächtern_des_Leibes.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="reborn_009_Vom_bleichen_Verbrecher.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="reborn_007_Von_den_Verächtern_des_Leibes.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="reborn_009_Vom_bleichen_Verbrecher.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

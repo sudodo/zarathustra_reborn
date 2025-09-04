@@ -1,0 +1,275 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>reborn_022_Vom_Biss_der_Natter - 永劫回帰のツァラトゥストラ、現代に転生してまた言ったwww</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">永劫回帰のツァラトゥストラ、現代に転生してまた言ったwww</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3 id="炎上案件毒蛇に噛まれた賢者逆ギレ人生相談を始める"><a class="header" href="#炎上案件毒蛇に噛まれた賢者逆ギレ人生相談を始める"><strong>【炎上案件】毒蛇に噛まれた賢者、逆ギレ人生相談を始める</strong></a></h3>
+<p>ある日の昼下がり、あまりの猛暑にツァラトゥストラは完全にグロッキー状態であった。
+「あづい……マジあづい……。こんな日は木陰でソシャゲのスタミナ回復でも待つに限るです……」
+そう言って、彼は大きなイチジクの木の下にごろりと寝転がり、スマホ（もちろん圏外）の代わりに腕を顔の上に乗せて、意識を失うように眠りに落ちた。引きこもりには、直射日光は毒なのである。</p>
+<p>その時だった。草むらがガサガサと揺れ、一匹の毒蛇が姿を現した。
+（チッ、こいつが噂の意識高い系引きこもりか……。なんかムカつくな。いっちょ噛んで、俺の毒（物理）の恐ろしさを教えてやるぜ！）
+毒蛇はそう思うやいなや、眠っているツァラトゥストラの首筋に、その毒牙をブスリと突き立てた！</p>
+<p>「いっっっっっったああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ-ッ！」と叫び声を上げた。
+ツァラトゥストラは飛び起き、毒蛇を睨みつけた。毒蛇は（やべっ、やりすぎた！？）とビビって逃げようとしたが、時すでに遅し。</p>
+<p>「いや、待ちなさい」とツァラトゥストラは言った。「まだ君は私の感謝を受け取っていませんよ！ 君は私をちょうど良い時に起こしてくれた。私の布教の旅は、まだ長いのですから！」
+完全にポジティブシンキングである。</p>
+<p>「いや、あの、あなたの道はもうすぐ終わるはずなんすけど…」毒蛇は悲しげに言った。「俺の毒、ガチで死ぬやつなんで」</p>
+<p>するとツァラトゥストラはフッと笑った。
+「フハハハ！ 愚かな！ この俺様がただの蛇の毒で倒れるとでも思ったか！ 蛇の毒で竜が死んだなんて話、聞いたことありますか！？ 私は神竜に転生した男なのですよ！」</p>
+<p>「だが、そのチープな毒は回収したまえ！ 君は私にそれをプレゼントできるほど、格（レベル）が高くはない！」
+あまりの上から目線に、毒蛇は完全に戦意を喪失。
+「は、はひぃぃ！ 申し訳ございませんでした！ すぐに消毒させていただきます！」
+毒蛇は再びツァラトゥストラの首に巻きつき、恐怖に震えながらペロペロと傷口を舐めたのであった。</p>
+<hr />
+<p>後日、ツァラトゥストラはこの武勇伝を弟子たちにドヤ顔で語って聞かせた。
+「――というわけで、毒蛇すらも俺のカリスマの前にひれ伏した、というわけです」</p>
+<p>弟子たちはキラキラした目で彼を見つめ、一人が尋ねた。
+「おお、ツァラトゥストラ様！ その素晴らしいお話の教訓は一体何なのでしょうか！？」</p>
+<p>ツァラトゥストラは待ってましたとばかりに咳払いを一つし、彼のありがたい（そして非常に偏った）人生相談が始まった。</p>
+<p>「いいですか、皆さん。いわゆる"正義マン"や"常識人"たちは、私のことを『道徳の破壊者』だの『炎上系インフルエンサー』だのって呼びます。私の話は、連中からすれば不道徳（アンモラル）極まりないでしょう」</p>
+<p>「しかしね、もし君たちにアンチができたなら、善意で報復してはなりません！ なぜなら、それは相手に『俺がコイツを更生させてやった』という恥辱的な快感を与えるだけだからです！ むしろ、『いやー、あなたのおかげでまた一つ賢くなっちゃいましたわーw』と、相手が何か良いことをしたかのように見せかけ、精神的優位（マウント）を確保するのです！」</p>
+<p>&lt;弟子A&gt; 「え、それってただの性格悪いやつでは…」</p>
+<p>「そして、屈辱を受けるくらいなら、むしろブチギレなさい！ もしSNSでクソリプを飛ばされたら？ 『あなたを祝福します』なんて聖人ぶるのは三流のやること。むしろ『お前も呪われろ！』と、きっちり呪詛返し（ブロック＆スパム報告）してやるのが一流です！」</p>
+<p>「もし君たちのアカウントが不当に凍結されるという大きな不正を受けたなら、すぐにサブアカウントを五つ作って嫌がらせ…もとい、活動を再開しなさい！ たった一つの不正に泣き寝入りしている姿なんて、見ていて痛々しいだけですからね！」</p>
+<p>&lt;弟子B&gt; 「それ、完全に規約違反の教唆じゃないですか！？」</p>
+<p>「いいですか、小さな復讐は、何もしないよりずっと人間的なのですよ！ そして、もしBAN（罰）が、違反者にとっての『運営に目をつけられた』という権利であり、一種の名誉（ステータス）でもないのであれば、私は君たちの受けるどんな罰も好みません！」</p>
+<p>「権利を主張し続けるよりも、レスバで勝ち確の時にあえて不正（負け）を自分に与える方が高貴なのです。特に自分が正しい場合にはね。まあ、そのためには精神的余裕（課金額）が十分にないと無理ですけどね（チラッ）」</p>
+<p>「私はね、君たちのあの冷たい正義が嫌いなんですよ。そして、君たち裁判官（モデレーター）のアイコンの奥からは、いつも私を叩きのめそうとする処刑人と、その冷たい鉄（BANボタン）がチラついているのが見えるんです！」</p>
+<p>&lt;弟子C&gt; 「被害妄想がすごい…」</p>
+<p>「教えてくださいよ！ 推しが炎上した時に、それでも真実を見抜こうとする『愛』のある正義は、一体どこに見出せるというのですか！？」</p>
+<p>「ならば発明したまえ！ すべての罰だけでなく、すべての罪（アンチの誹謗中傷も信者の盲目的擁護も）をも引き受ける、究極の『愛』を！」</p>
+<p>「ならば発明したまえ！ 叩いている奴を除いて、すべての人を無罪（スルー）とする、至高の『正義』を！」</p>
+<p>「まだ聞きたいですか？ 根底から正義であろうとする者においては、時には『お前の描いた絵、神！』みたいな嘘さえも、オタク同士の友愛（コミュニケーション）となるのです！」</p>
+<p>&lt;弟子D&gt; 「それ、ただの馴れ合いでは…」</p>
+<p>「しかし、どうして私が根底から正義でありえましょうか！ どうして私がすべての人にその人のもの（あるべき姿）を与えられましょうか！ 私にはこれで十分。私はすべての人に、私のもの（有り難い思想）を与えるだけです」</p>
+<p>「最後に、兄弟たちよ。私のような引きこもり（隠者）を煽る（侮辱する）ことは慎みなさい！ 引きこもりがどうして忘れられましょうか！ どうして報復せずにいられましょうか！」</p>
+<p>「隠者とは、深い井戸のようなもの。石（煽りコメント）を投げ込むのは簡単です。しかし、それが心の底まで沈んでしまったら、言ってみなさい、誰がそれを再び引き上げることができるというのですか？」</p>
+<p>「隠者を侮辱することは慎みなさい！ しかし、もし君たちがそうしてしまったなら……ならば、いっそ殺しさえせよ！」</p>
+<p>&lt;弟子一同&gt; 「（（（（怖すぎだろこの人！！！）））） 」</p>
+<p>――ツァラトゥストラはこう語った。弟子たちは、あまりの過激思想にドン引きしつつも、なぜか「深い…！」と感銘を受けているのであった。まったくもって、迷惑な話である。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="reborn_021_Von_alten_und_jungen_Weiblein.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="reborn_023_Von_Kind_und_Ehe.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="reborn_021_Von_alten_und_jungen_Weiblein.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="reborn_023_Von_Kind_und_Ehe.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>reborn_017_Vom_Freunde - 永劫回帰のツァラトゥストラ、現代に転生してまた言ったwww</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">永劫回帰のツァラトゥストラ、現代に転生してまた言ったwww</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3 id="激論ぼっちの哲学者が語る真の友情論があまりにもこじらせすぎている件"><a class="header" href="#激論ぼっちの哲学者が語る真の友情論があまりにもこじらせすぎている件"><strong>【激論】ぼっちの哲学者が語る「真の友情論」が、あまりにもこじらせすぎている件</strong></a></h3>
+<p>市場での「超人」演説を華麗にスベり倒したツァラトゥストラ。しかし彼の鋼のメンタルはノーダメージだ。むしろ「愚民どもに高尚な教えを授けてやったわ」と、一人悦に入っていた。そんな彼に、野次馬の一人が純粋な、そして最も残酷な質問を投げかけた。</p>
+<p><strong>&lt;野次馬A&gt;</strong> 「あんた、さっきから一人でベラベラまくし立ててるけどさ……もしかして、友達いないの？」</p>
+<p>グサッ！ まるで心のド真ん中に聖槍が突き刺さったかのような一撃！
+だが、我らが引きこもり賢者は、この致命傷すらも自らの哲学を開陳する絶好のチャンスへと変えてしまうのだ！</p>
+<p>ツァラトゥストラは、野次馬を憐れむような、それでいて「フン、何もわかっていない雑魚が…」と見下すような、実に複雑な表情でゆっくりと口を開いた。</p>
+<p>「フッ……いい質問ですねぇ、そこの君。君のような一般人には、『孤独』と『孤高』の違いがわからないのも無理はないでしょう。よく聞いてください？ <strong>『一人は常に私の周りに多すぎる』</strong>――これが、我々レベルの思索者の間では常識なんです」</p>
+<p><strong>&lt;群衆B&gt;</strong> 「何そのパワーワード。ただのぼっちの言い訳にしか聞こえないけど」</p>
+<p>「つまりですね！ 常に『私』と『もう一人の私』による脳内ディベートが白熱しすぎて、外部の人間が入り込む余地などないのですよ！ もし友人がいなければ、この熱すぎる対話にどう耐えろと？ 無理でしょ？」
+と、ツァラトゥストラは一人二役で会話が完結していることを力説した。完全にヤバい人である。</p>
+<p>「隠者にとって友人とは、常に**『第三者』<strong>なんです。そう、第三者とは、二人の会話（俺と俺の）が深淵という名の沼にズブズブと沈んでいくのを防いでくれる</strong>『コルク』**のようなもの！ いわば便利なセーブポイントなんですよ！」</p>
+<p><strong>&lt;群衆C&gt;</strong> 「友達をアイテム扱いかよ……」</p>
+<p>「ああ、我々のような隠者にとって、思考の深みは時に深すぎる！ だからこそ、友人という名の**『高み（言い訳）』**を切望することがあるのです！ でもね！」
+ツァラトゥストラは人差し指をビシッと天に突きつけた。</p>
+<p>「他者への信頼というのは、結局のところ、自分が自分をどう見せたいかの自己プロデュースでしかない！ <strong>『友達が欲しいなー』なんて切望するのは、ソロプレイじゃもう限界ですって白状してるようなもんなんですよ！</strong> 自分の弱さの裏返し！ ダサいと思いませんか！？」</p>
+<p>「それに、愛の力で嫉妬を乗り越えようとしたり、自分が傷つきやすいのを隠すために、わざと敵を作って攻撃的になったりする！ 心当たり、あるんじゃないですかぁ？」
+と、彼はニヤニヤしながら群衆を見渡した。何人かが気まずそうに目をそらす。</p>
+<p>「だから、友情をストレートに請う勇気がない、真の畏敬の念を持つ者――まあ、僕みたいなコミュ障とも言いますが――は、こう言うしかないんです。**『せめて私の敵（ライバル）であれ！』**とね！」</p>
+<p><strong>&lt;群衆D&gt;</strong> 「ただのクソめんどくさいツンデレじゃねーか！」</p>
+<p>「友を持ちたいなら、そのために<strong>戦う覚悟</strong>も決めなきゃダメなんです！ そして戦うためには、<strong>敵になる</strong>こともできなきゃ！ 友の中には、常に**『最高の敵』**をリスペクトとして内包しておくべきなんですよ！ 馴れ合いはクソです！」</p>
+<p>「いいですか！？ 友に反抗する時こそ、心の中では誰よりも近くにいなければならない！ なのに、『親友だから』とか言って、平気で相手のテリトリーに土足で踏み込むやつがいるでしょ！？」</p>
+<p>「**『ありのままの俺を見てくれ！』**とか言って、精神的スッピンを晒すことが、相手への敬意だとでも思ってるんですか！？ 迷惑千万！ 相手は『うわ、出たよ…』ってドン引きですよ！ そんなことをすれば、友は君を悪魔に売り渡したくなるでしょうね！」</p>
+<p><strong>&lt;群衆E&gt;</strong> 「こいつ、過去に友達と何があったんだ……？」</p>
+<p>「自分を隠さない者は、相手をイラつかせるだけ！ そうでしょう？ 君たちだって、もし神様が全裸で目の前に現れたら、まず**『服を着てください！』**って思いますよね！？ それと同じです！」
+もはや例えが壮大すぎて意味不明である。</p>
+<p>「友人の前だからこそ、完璧に美しく着飾るべきなんです！ なぜなら、君は友人にとって**『超人』へと至るための『矢』であり、『憧れ』**であるべきだからだ！」</p>
+<p>「君たち、眠っている友人の顔を見たことがありますか？ その無防備な顔が何に見えるか、教えてあげましょう。それは、粗野で不完全な鏡に映った**『君自身の顔』**なんですよ！ うわ、俺もこんなマヌケ面してんのかなって、ゾッとするはずです」</p>
+<p><strong>&lt;群衆A&gt;</strong> 「うわー、性格わるっ！」</p>
+<p>「眠ってる友人の顔を見て、驚いたことはないですか？ 『こいつ、こんな顔してたんだ…』って。おお、我が友よ、人間とは乗り越えられるべきものである、と僕はその時、改めて思うのです」</p>
+<p>「友人とは、相手の心を推測し、沈黙の意味を読み解く**『エスパー』**であるべきです！ 何でもかんでも見ようとしちゃダメ！ 相手の夢（寝言）から、そいつが起きてる時に何してるか（本性）を読み解くんです！」</p>
+<p>「君たちの憐憫（同情）もまた、<strong>推測</strong>であるべきなんですよ！ つまり、まず相手が『同情（いいね！）』を欲しがっているかどうかを、その場の空気から読み取るんです！ <strong>『大丈夫？』なんていうクソリプは送るな！</strong> 相手は『お前に俺の何がわかるんだよ！』って思ってるかもしれない。その憐憫は、相手が本当に望んでいるかどうかの『市場調査』から始めるべきなんです！」</p>
+<p><strong>&lt;群衆B&gt;</strong> 「友情に市場調査とか持ち出すなよ……」</p>
+<p>「そして、その同情心は、<strong>硬いツンデレアーマーの下に隠しておくべき</strong>なんです。それを砕いて取り出そうとしたら、歯が折れるくらいにね！ そうすれば、いざという時に見せるその優しさが、極上の繊細さと甘さを持つことになるんですよ！ ギャップ萌えってやつです！」</p>
+<p>「そもそも君は、友人にとって清らかな空気ですか？ 孤独ですか？ パンですか？ 薬ですか？ <strong>自分の鎖さえ解けないくせに、友人を救おうなんておこがましい</strong>んですよ！」</p>
+<p>「君は<strong>奴隷</strong>ですか？ 言われたことしかやらないイエスマンに、本当の友人はできません。じゃあ、君は<strong>暴君</strong>ですか？ 『俺の言うことだけ聞け』っていうジャイアンに、友達ができるわけないでしょう」</p>
+<p>ここでツァラトゥストラは、少し声を潜め、何かを暴露するかのように続けた。</p>
+<p>「そして…これはデリケートな問題なんですが…<strong>女性の中には、あまりにも長い間、『奴隷』と『暴君』が隠されてきた</strong>歴史があるんです。だから、彼女たちはまだ**『友情』<strong>という概念をインストールできていない。彼女たちが知っているのは、ただ</strong>『愛』**だけなんです」</p>
+<p><strong>&lt;女性の群衆&gt;</strong> 「はぁ！？」「ちょっと、何言ってんのこのおっさん！」「炎上させてやろうか！」</p>
+<p>「落ち着いてください！ これは差別じゃない、分析です！ 女性の愛の中には、自分が愛さないものすべてに対する<strong>不正と盲目</strong>がある！ そして、その愛の中にも、光のすぐ隣に、突然の<strong>襲撃と稲妻と夜</strong>が潜んでいる！ つまり、情緒がジェットコースターなんです！」</p>
+<p>「だから、女性はまだ友情を築けない。彼女たちは気まぐれな<strong>猫</strong>であり、自由な<strong>鳥</strong>であり、あるいは最良の場合でも、のんびりした<strong>牛</strong>なんです。わかりますか？ まだジョブとして『親友』がアンロックされてないんですよ」
+女性陣からの殺気立った視線に、さすがのツァラさんも少しタジタジである。</p>
+<p>「し、しかし！ じゃあ君たち<strong>男</strong>はどうなんだと！ 言わせてもらおう！ 君たちのうち、一体誰が本当の『友情』を築けているというんですか！？」</p>
+<p>「おお、君たち男の魂の貧しさと貪欲さよ！ 君たちが友人に与えているものなんて、僕ならまだ敵にだって与えてやりますよ！ それで貧しくなるなんてこともない！」</p>
+<p>ツァラトゥストラは、最後に大きく息を吸い込み、結論を叫んだ。</p>
+<p>「**『仲間意識』<strong>は存在する！ 飲み会仲間とか、ゲーム仲間とかね！ でも、</strong>『友情』**はまだ存在しない！ それは、これから僕たちが創り上げていくべき、至高のプロジェクトなんです！」</p>
+<p>「そう！ <strong>友情もまた、存在するようになることを願う！</strong>」</p>
+<p>ツァラトゥストラは再びドヤ顔で締めくくった。群衆は、あまりにもこじらせすぎた友情論に、もはや笑う気力も失い、ただただ呆然と立ち尽くすのであった。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="reborn_016_Von_der_Keuschheit.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="reborn_018_Von_tausend_und_Einem_Ziele.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="reborn_016_Von_der_Keuschheit.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="reborn_018_Von_tausend_und_Einem_Ziele.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>
