@@ -1,0 +1,362 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>reborn_003_Erster_Theil_002 - 永劫回帰のツァラトゥストラ、現代に転生してまた言ったwww</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">永劫回帰のツァラトゥストラ、現代に転生してまた言ったwww</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="悲報渾身の演説大スベリする"><a class="header" href="#悲報渾身の演説大スベリする">悲報！渾身の演説、大スベリする</a></h2>
+<p>ツァラトゥストラがドヤ顔で演説を終えると、再び人々をじっと見つめ、沈黙した。
+（ふむ…手応えは…）と内心期待していたが、聴衆の反応は芳しくない。</p>
+<p>「（…ダメだ、こいつら、そこに突っ立ってやがる）」と彼は心の中で毒づいた。「しかも笑ってやがる…。俺のありがたいお言葉が、こいつらの耳には届いていないッ！ 俺はこいつらのための口じゃなかったってことか…！）」</p>
+<p>引きこもり歴10年の彼にとって、久々のプレゼンは完全に空振りに終わったようである。</p>
+<p>「（そもそも、こいつらに俺の言葉を理解させるには、まず耳をぶち壊してやらないとダメなのか？ 太鼓や説教みたいにガンガン鳴らさなきゃ伝わらないのか！？ それとも、どもって喋る奴の話しか信じないっていう、特殊な性癖の持ち主どもなのか！？）」</p>
+<p>もはや悪態が止まらない。</p>
+<p>「（だいたい、こいつらにはプライドってもんがある。そのプライドの源泉を、やつらは『教養』と呼んでいるらしい。それがそこらの山羊飼いとは違う、自分たちのステータスだと信じ込んでいるんだ）」</p>
+<p>「（だから『お前らマジ軽蔑するわ』なんて言われようもんなら、顔を真っ赤にして怒り出すに決まってる。……よし、ならば逆手にとって、やつらのそのくだらないプライドに直接語りかけてやろうじゃないか！）」</p>
+<p>そう決意すると、彼は再び口を開いた。</p>
+<p>「ならば諸君！ 私は君たちに、最も軽蔑すべき存在について語ってやろう！ それこそが『末人（ラストマン）』だ！」</p>
+<p>そしてツァラトゥストラは、再び説法を始めた。</p>
+<p>「人間が自らの目標を設定するべき時が来たのです！ 人間が自らの最高の希望のタネを植えるべき時が来たのです！」</p>
+<p>「まだそのための土壌は十分に豊かだ。だが、この土壌もいつかは痩せ細り、そこから天を突くような巨木が育つことはできなくなるだろう！」</p>
+<p>「ああ！ 人間がもはや自分の憧れの矢を、人間自身の限界を超えて放つことがなくなり、その弓の弦が震える音を忘れてしまう時が来るだろう！」</p>
+<p>&lt;群衆F&gt; 「なんかポエム始まったぞ」
+&lt;群衆G&gt; 「さっきから長いんだよな…」</p>
+<p>「言っておく！ 躍動する星をその身に宿すには、心の中にまだ混沌（カオス）を抱いていなければならない！ 言っておく！ 君たちの中にはまだカオスがある！」</p>
+<p>「ああ！ だが人間がもはや星を生み出さなくなる時が来る！ ああ！ 最も軽蔑すべき『末人』の時代が来るのだ！ そいつは、もはや自分自身を軽蔑することさえできない、救いようのない存在だ！」</p>
+<p>「見よ！ これが『末人』の姿だ！」</p>
+<p>ツァラトゥストラは、あたかもそこに『末人』がいるかのように指をさし、その生態を語り始めた。</p>
+<p>「『愛って何？ 創造って美味しいの？ 憧れとか、星とか、何それ？』――『末人』はそう問いかけ、ただパチパチと瞬きをするだけだ」</p>
+<p>「その時、大地は矮小化し、その上で『末人』がノミのように飛び跳ねる。彼はすべてを小さくしてしまうのだ。彼の種族は、地上のノミのように根絶やしにできない。そして『末人』は、誰よりも長生きする」</p>
+<p>「『我々は幸福を発見した』――『末人』たちはそう言って、パチパチと瞬きをする」</p>
+<p>&lt;群衆H&gt; 「瞬きしすぎだろ、そいつ」</p>
+<p>「彼らは住みにくい地域を捨てた。だって暖かい場所が必要だから。彼らは隣人を愛し、互いに体を擦り付け合う。だって暖かい場所が必要だから」</p>
+<p>「病気になることや疑うことは、彼らにとって『罪』とされる。彼らは慎重に歩く。石ころや他人につまずくなんて、愚か者のやることだからだ！」</p>
+<p>「たまに少量の毒を摂取する。それが心地よい夢を見せてくれるから。そして最期にはたっぷりの毒を呷り、安らかな死を迎える」</p>
+<p>「彼らはまだ働く。なぜなら労働は娯楽だからだ。しかし、その娯楽が心身を損なわないように、ちゃんと気をつけている」</p>
+<p>&lt;群衆I&gt; 「それ、ただの現代人じゃね？」</p>
+<p>「彼らはもはや貧しくも裕福でもない。どっちも面倒くさいからだ。誰が支配したい？ 誰が従いたい？ どっちも面倒くさいからだ」</p>
+<p>「羊飼いはいない、ただ一つの巨大な家畜の群れがあるだけ！ 誰もが同じものを欲し、誰もが同じ人間である。もし違う感性を持つ者がいれば、自ら精神病院へ歩いていく」</p>
+<p>「『昔は全世界が狂っていたんだぜ』――最も洗練された『末人』はそう言って、パチパチと瞬きをする」</p>
+<p>「彼らは賢く、過去に起こったことは何でも知っている。だから彼らの嘲笑は終わることがない。彼らはまだ口論するが、すぐに和解する。――さもないと胃が荒れるからだ」</p>
+<p>「彼らは昼のためのささやかな喜びと、夜のためのささやかな喜びを持っている。しかし、何よりも健康をリスペクトしている」</p>
+<p>「『我々は幸福を発見した』――『末人』たちはそう言って、パチパチと瞬きをする――」</p>
+<p>ここでツァラトゥストラの最初の演説、通称「序説」は終わりを告げた。というのも、彼の言葉は群衆の叫び声と歓声によってかき消されたからだ。</p>
+<p>「その『末人』を俺たちにくれよ、ツァラトゥストラさんよぉ！」
+「そうだそうだ！ 俺たちを『末人』にしてくれ！ そしたら、あんたの言う『超人』とやらをくれてやるぜ！」</p>
+<p>そして、すべての人々がゲラゲラと笑いながら、舌を鳴らして囃し立てた。
+しかしツァラトゥストラは、その反応を見て悲しげな顔になり、心の中で呟いた。</p>
+<p>「（ダメだ、こいつら、マジで何も理解してない……。俺はこれらの耳のための口じゃなかったんだ……）」
+「（山に長く住みすぎた。小川のせせらぎや木々のざわめきに耳を傾けすぎた。今の俺の喋り方は、まるで山羊飼いのそれだ……）」
+「（俺の魂は、朝の山のように静かで輝いているというのに。やつらは俺を、冷酷で、恐ろしい冗談を言う皮肉屋だと思っている……）」
+「（そして今、やつらは俺を見て笑っている。笑いながら、俺を憎んでいる。やつらの笑いの中には、氷のような冷たさがある……）」</p>
+<h2 id="綱渡り芸人の悲劇ガチ"><a class="header" href="#綱渡り芸人の悲劇ガチ">綱渡り芸人の悲劇（ガチ）</a></h2>
+<p>しかしその時、すべての口を黙らせ、すべての目を釘付けにする事件が起こった。
+その間、綱渡り芸人はとっくに仕事を始めていたのだ。彼は小さな扉から現れ、二つの塔の間に張られたロープの上を歩いていた。市場の喧騒と、大勢の人々の頭上である。</p>
+<p>彼がちょうど中間地点に差し掛かったとき、例の小さな扉が再び開き、ピエロのような派手な衣装の男が飛び出してきた。そして、猛烈なスピードで芸人の後を追いかけ始めた。</p>
+<p>「とっとと行けや、このグズが！」と、その恐ろしい声が響き渡った。「進め、ノロマ！ この密売人！ この青白い顔が！ 俺様のかかとでケツをくすぐられたいのか！？」
+「お前は塔の中にいりゃいいんだよ！ 閉じ込めてやる！ お前より優れた者（つまり俺様）の道を塞ぐんじゃねえ！」</p>
+<p>言葉を吐くたびに、道化師は芸人との距離を詰めていく。
+そして、彼が芸人の背後一歩のところまで迫ったとき――すべての口を黙らせ、すべての目を釘付けにする、恐ろしい出来事が起こった。</p>
+<p>道化師は悪魔のように叫び声を上げると、なんと、彼の行く手を阻んでいた芸人の上をヒョイと飛び越えたのだ。</p>
+<p>しかし、芸人の方は、ライバルが自分を出し抜いたのを見て、完全にパニックに陥った。彼はバランスを失い、持っていた棒を投げ捨て、それよりも速く、手足をバタつかせながら、奈落の底へと落ちていった。</p>
+<p>市場と人々は、まるで嵐に襲われた海のように大混乱に陥った。誰もが我先にと逃げ惑い、特に芸人が叩きつけられるであろう場所からは、蜘蛛の子を散らすようにいなくなった。</p>
+<p>しかし、ツァラトゥストラだけはその場に立ち尽くし、彼のすぐ隣に、その体が叩きつけられた。ひどく損傷し、砕かれてはいたが、まだ息はあった。
+しばらくして、打ち砕かれた男は意識を取り戻し、自分の隣に跪いているツァラトゥストラに気づいた。</p>
+<p>「あんた…何してんだ…？」と彼はかろうじて言った。「悪魔が俺の足元をすくうだろうってことは、ずっと前から知ってた…。今、やつは俺を地獄に引きずり込もうとしてる。あんた、それを止めるつもりか…？」</p>
+<p>「我が名誉にかけて言いますが、友よ」とツァラトゥストラは答えた。「君が言うようなものは、何一つ存在しません。悪魔も、地獄もありません。君の魂は、君の肉体よりも一足先に死ぬだけです。もう何も恐れることはないのです！」</p>
+<p>男は疑わしげに彼を見た。
+「もし…あんたが本当のことを言ってるなら…俺は命を失っても、何も失わないってことか…。俺は、殴られたり、わずかなエサをもらったりして、踊ることを教えられただけの動物なんだからな…」</p>
+<p>「いや、そんなことはない」とツァラトゥストラは語った。「君は危険から君の天職を作り出した。そこに軽蔑されるべきものは何もない。そして今、君は君の天職によって命を落とす。だからこそ、この私が、君をこの手で埋葬してやろう」</p>
+<p>ツァラトゥストラがこれを語ったとき、死にゆく男はもはや答えなかった。しかし彼は、まるでツァラトゥストラの手に感謝を伝えるかのように、かろうじて手を動かしたのだった。</p>
+<h2 id="死体と俺と時々道化師"><a class="header" href="#死体と俺と時々道化師">死体と俺と、時々、道化師</a></h2>
+<p>その間に夕暮れが訪れ、市場は闇に包まれた。好奇心と恐怖でさえも疲れ果て、人々は散り散りになっていった。
+しかしツァラトゥストラは、死んだ男の隣に座り込み、物思いに耽っていた。時の経つのも忘れて。</p>
+<p>やがて夜になり、冷たい風が孤独な男の上に吹きつけた。その時、ツァラトゥストラは立ち上がり、心の中で呟いた。</p>
+<p>「（ふむ、今日はとんだ大漁だったな！ 人間は釣れなかったが、代わりに死体を一匹ゲットしたぜ！）」</p>
+<p>不謹慎にもほどがある。</p>
+<p>「（人間の存在とは、かくも不気味で、未だに意味を持たないものなのか。道化師ごときが、その運命を左右してしまうとは…）」
+「（私は人間たちに、彼らの存在の意味を教えてやりたい。それこそが『超人』。人間という暗雲から放たれる、一筋の稲妻なのだ！）」
+「（だが、俺はまだやつらから遠すぎる。俺の言葉は、やつらの感覚には届かない。今の俺は、人間どもにとって、道化師と死体の間にいるような、中途半端な存在なのだ…）」</p>
+<p>「夜は暗く、俺の道も暗い。さあ、行こうか、冷たく硬い我が友よ！ この俺が、お前を手ずから埋葬してやる場所へと運んでやろう」</p>
+<h2 id="死体と行く夜の珍道中"><a class="header" href="#死体と行く夜の珍道中">死体と行く、夜の珍道中</a></h2>
+<p>ツァラトゥストラが心の中でそう決意すると、彼は死体をひょいと背中に担ぎ、道を進んだ。
+まだ百歩も進まないうちに、一人の男が彼に忍び寄り、耳元で囁いた。――見ると、それはなんと、塔の上にいたあの道化師であった。</p>
+<p>「この町から出ていけ、ツァラトゥストラ」と彼は言った。「ここでは、あまりにも多くの者がお前を憎んでいる。善良で正義感の強い連中はお前を憎み、お前を敵であり、軽蔑すべき者と呼ぶ。正しい信仰を持つ信者たちは、お前を群衆にとっての危険人物だと呼ぶ」
+「人々がお前を笑ったのは、幸運だったな。おかげで助かった。まったく、お前は道化師のように語る」
+「死んだ犬と交わったのも、幸運だった。そうやって身を低くしたからこそ、今日のお前は救われたのだ。だが、とっととこの町から出ていけ――さもないと、明日は俺が、生きている俺が、死んだお前の上を飛び越えてやるぜ」</p>
+<p>そう言うと、男は闇に消えた。しかしツァラトゥストラは、暗い通りをそのまま進んでいった。</p>
+<p>町の門で、彼は墓掘り人たちに出会った。彼らは松明で彼の顔を照らし、それがツァラトゥストラだと気づくと、大声で嘲笑した。
+「おい見ろよ、ツァラトゥストラが死んだ犬を運んでるぜ！」
+「こりゃ傑作だ、ツァラトゥストラが墓掘り人になったのか！ 俺たちの手は、こんな獲物には綺麗すぎて触れねえからな！」
+「まさか、悪魔から獲物を盗むつもりか？ いいぜ、やってみな！ ご馳走にありつけるといいな！ もし、悪魔がお前より腕の立つ泥棒じゃなけりゃの話だがな！――やつは両方盗んで、両方食っちまうぜ！」
+そして彼らは、顔を寄せ合ってゲラゲラと笑った。</p>
+<p>ツァラトゥストラはそれに対して一言も答えず、自分の道を進んだ。
+彼が二時間ほど歩き、森と沼地を通り過ぎたとき、彼は狼たちの飢えた遠吠えを何度も耳にし、彼自身も空腹を覚えた。そこで彼は、明かりが灯っている一軒の孤独な家で足を止めた。</p>
+<p>「（腹が…減った…）」とツァラトゥストラは思った。「まるで強盗のように、空腹が俺を襲う。森と沼地で、そしてこの深い夜に、俺の空腹が襲いかかってくる…）」
+「（俺の空腹は、奇妙な癖がある。食後にやってくることが多いのに、今日は一日中来なかった。一体どこをほっつき歩いていたんだ？）」</p>
+<p>そしてツァラトゥストラは、家の扉を叩いた。一人の老人が現れた。彼は明かりを手に持ち、尋ねた。「わしと、わしの浅い眠りの邪魔をしに来たのは誰じゃ？」</p>
+<p>「生きた者と、死んだ者です」とツァラトゥストラは言った。「食べ物と飲み物をください。日中、それを忘れていましたので。『飢えた者に食事を与える者は、自らの魂を蘇らせる』と、知恵はそう語っています」</p>
+<p>老人は一旦家の中に戻ったが、すぐにパンとワインを持ってきて、ツァラトゥストラに差し出した。
+「飢えた者にとって、この辺りはろくな場所じゃない」と彼は言った。「だからわしはここに住んでおる。動物も人間も、隠者であるわしのところへやって来る。だが、お前の連れにも食わせてやれ。お前さんより疲れているようじゃからな」</p>
+<p>ツァラトゥストラは答えた。「私の仲間は死んでいます。彼を説得するのは、骨が折れるでしょう」</p>
+<p>「そんなこたぁ知らん」と老人は不機嫌に言った。「わしの家を叩く者は、わしが出すものを受け取らねばならん。食え、そして達者でな！」</p>
+<p>その後、ツァラトゥストラは再び二時間歩き、道と星の光を頼りに進んだ。彼は夜歩きに慣れており、眠っているすべてのものの顔を見るのが好きだったからだ。
+しかし夜が明ける頃、ツァラトゥストラは深い森の中にいることに気づき、もはや道は見えなかった。そこで彼は、死んだ男を狼から守るために、空洞になった木の幹の中に置き――そして自分自身は、地面と苔の上に横になった。
+そしてすぐに彼は眠りに落ちた。体は疲れていたが、その魂は揺らぐことはなかった。</p>
+<h2 id="覚醒俺ソロプレイヤーやめます"><a class="header" href="#覚醒俺ソロプレイヤーやめます">【覚醒】俺、ソロプレイヤーやめます</a></h2>
+<p>ツァラトゥストラは長く眠り、夜明けだけでなく、午前中も彼の顔の上を通り過ぎていった。しかし、ついに彼の目が開いた。
+ツァラトゥストラは驚いて森と静寂を見つめ、そして驚いて自分自身の中を見つめた。それから彼は、突然陸地を発見した船乗りのように素早く立ち上がり、歓声を上げた。なぜなら、彼は新しい真実を発見したからである。そして彼は心にこのように語った。</p>
+<p>「（光が差したぞ！ 俺には仲間が必要だ！ それも、生きている仲間が！――俺がどこへでも連れて行くような、死んだ仲間や死体じゃない！）」</p>
+<p>当たり前のことに、今更気づいたようである。</p>
+<p>「（そうだ、俺には生きた仲間が必要だ。彼らが自ら望んで俺に従い、俺が望む場所へついてくるような、そんな仲間が！）」
+「（光が差した！ ツァラトゥストラは、大衆に語りかけるのではない、仲間に語りかけるのだ！ ツァラトゥストラは、家畜の群れの羊飼いや番犬になるべきではない！）」</p>
+<p>「（多くの者を、あの家畜の群れから引き離す――そのために俺は来たのだ。人々も群れも、俺に怒るだろう。羊飼いたちは、ツァラトゥストラを『強盗』と呼ぶだろうな！）」
+「（俺はやつらを『羊飼い』と呼ぶが、やつらは自分たちのことを『善良な者』『正義なる者』と呼ぶ。俺は『羊飼い』と呼ぶが、やつらは自分たちのことを『正しい信仰の信者』と呼ぶ）」</p>
+<p>「（見ろ、あの『善良な者』と『正義なる者』を！ やつらが最も憎むのは誰か？ 自分たちの価値観の石板をぶち壊す者、破壊者、犯罪者だ。――だが、それこそが『創造者』なのだ！）」
+「（見ろ、あのあらゆる信仰の信者どもを！ やつらが最も憎むのは誰か？ 自分たちの価値観の石板をぶち壊す者、破壊者、犯罪者だ。――だが、それこそが『創造者』なのだ！）」</p>
+<p>「（創造者は仲間を求める。死体も、家畜の群れも、信者も求めない。創造者は、共に創造する仲間を求めるのだ。新しい石板に、新しい価値を書き記す者たちを！）」</p>
+<p>「（創造者は仲間を求める。共に収穫する仲間を求める。なぜなら、彼の前ではすべてが収穫の時を待っているからだ。だが、彼には百の鎌が足りない。だから彼は、もどかしくて穂をむしり取ってしまうのだ）」
+「（創造者は仲間を求める。そして、彼らの鎌を研ぐ術を知る者たちを求める。彼らは破壊者と呼ばれ、善悪の軽蔑者と呼ばれるだろう。しかし、彼らこそが収穫する者であり、祝祭する者なのだ！）」</p>
+<p>「（ツァラトゥストラは、共に創造し、共に収穫し、共に祝祭する仲間を求める。家畜の群れや羊飼いや死体と、これ以上何をするというのだ！）」</p>
+<p>「（そして君、我が最初の仲間よ、さらばだ！ 私は君を、君の空洞の木の中にうまく埋葬した。狼たちからもうまく隠してやった）」
+「（だが、俺は君と別れる。時は来た。夜明けと夜明けの間に、俺に新しい真実が訪れたのだ）」</p>
+<p>「（俺は羊飼いであるべきではない。墓掘り人であるべきでもない。もはや大衆と語り合うことさえしないだろう。俺が最後に話したのは、死んだ者だったのだから）」
+「（俺は、創造する者たち、収穫する者たち、祝祭する者たちに加わりたい。彼らに虹と、『超人』へと至るすべての階段を示してやりたい）」
+「（俺は隠者たちに、そして二重の隠者たちに、俺の歌を歌おう。そして、まだ誰も聞いたことのないものを聞く耳を持つ者には、俺の幸福でその心を重くしてやろう）」</p>
+<p>「（我が目的へと、俺は進む。俺は俺の道を行く。ためらう者や、のろまな者たちの上を、俺は飛び越えていくだろう。かくして、俺の歩みは、やつらの没落となるのだ！）」</p>
+<h2 id="俺のペット最強だから"><a class="header" href="#俺のペット最強だから">俺のペット、最強だから</a></h2>
+<p>ツァラトゥストラが心の中でそう語ったとき、太陽は真南にあった。その時、彼は問いかけるように空を見上げた。――なぜなら、頭上で鳥の鋭い鳴き声を聞いたからである。
+そして見よ！ 一羽の鷲が広い円を描いて空中を旋回しており、その鷲には一匹の蛇がぶら下がっていた。獲物としてではなく、友として。なぜなら、蛇は鷲の首に巻きついていたからである。</p>
+<p>「我がペットたちよ！」とツァラトゥストラは心から喜んで言った。</p>
+<p>「太陽の下で最も誇り高き動物（鷲）と、太陽の下で最も賢い動物（蛇）――彼らは偵察に出ていたのだ」
+「（ふふふ、こいつらは、この俺、ツァラトゥストラがまだ生きているかどうか、確かめに来たのだ。まったく、俺はまだ生きているのか？）」
+「（人間たちの間にいるよりも、動物たちの間にいる方が、よほど危険だと感じた。このツァラトゥストラ、より危険な道を歩むのだ。我がペットたちよ、我を導きたまえ！）」</p>
+<p>ツァラトゥストラがこれを語ったとき、彼は森の聖人の言葉を思い出し、ため息をつき、心にこのように語った。</p>
+<p>「（もっと賢くなりたい！ 我が蛇のように、根源から賢くなりたい！）」
+「（しかし、それは不可能な願いだ。ならば、俺のプライドに願おう。常に俺の賢さと共にあれ、と！）」
+「（そして、もし俺の賢さがいつか俺を見捨てて飛び去ってしまうのなら――ああ、そいつは飛び去るのが好きなのだ！――その時は、俺のプライドが、俺の愚かさと共に飛んでいってくれるように！）」</p>
+<p>――かくして、伝説の引きこもり賢者ツァラトゥストラの、華麗なる社会復帰（没落）が始まったのであった。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="reborn_003_Erster_Theil_001.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="reborn_004_Die_Reden_Zarathustras.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="reborn_003_Erster_Theil_001.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="reborn_004_Die_Reden_Zarathustras.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>
