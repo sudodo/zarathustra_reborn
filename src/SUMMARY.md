@@ -1,5 +1,6 @@
 # Summary
-- [reborn_003_Erster_Theil](reborn_003_Erster_Theil.md)
+- [reborn_003_Erster_Theil_001](reborn_003_Erster_Theil_001.md)
+- [reborn_003_Erster_Theil_002](reborn_003_Erster_Theil_002.md)
 - [reborn_004_Die_Reden_Zarathustras](reborn_004_Die_Reden_Zarathustras.md)
 - [reborn_005_Von_den_Lehrstühlen_der_Tugend](reborn_005_Von_den_Lehrstühlen_der_Tugend.md)
 - [reborn_006_Von_den_Hinterweltlern](reborn_006_Von_den_Hinterweltlern.md)
